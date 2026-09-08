@@ -1,0 +1,27 @@
+.reach-me-section {
+  background-color: #343a40;
+}
+
+.reach-me-bio {
+  color: #fff;
+}
+
+.flex-reach-me {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.reach-me-icon {
+  width: 6rem;
+  height: 6rem;
+  transition: transform 0.2s;
+}
+
+.reach-me-button:hover .reach-me-icon {
+  transform: scale(1.1);
+}

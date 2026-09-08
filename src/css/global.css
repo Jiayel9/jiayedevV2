@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.caveat {
+  font-family: 'Caveat', cursive;
+}
+
+h1 {
+  font-size: 4.4rem;
+  margin-bottom: 3.2rem;
+}
+
+h2 {
+  font-size: 4.4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #228be6;
+}
+
+section {
+  padding: 8rem 0;
+  background-color: #f7f7f7;
+}
+
+.website-bio {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
