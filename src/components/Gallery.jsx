@@ -9,7 +9,7 @@ export default function Gallery() {
   return (
     <section id="gallery" className="gallery-section">
       <div className="container">
-        <h2>Photo Gallery</h2>
+        <h2>More Life</h2>
         <div className="gallery">
           <img className="display-img" src={keshi} alt="keshi-concert" />
           <img className="display-img" src={mtl} alt="mtl" />

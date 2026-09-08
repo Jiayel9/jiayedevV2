@@ -1,49 +1,38 @@
-.block {
-  max-width: 100rem;
-  margin: 5rem auto;
+.about-layout {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  column-gap: 3rem;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  max-width: 90rem;
+  margin: 4rem auto 0;
+  align-items: center;
 }
 
-.journey-img {
+.about-img {
   width: 100%;
   border-radius: 12px;
+  object-fit: cover;
 }
 
-.journey-text-section {
-  grid-column: 2 / -1;
-}
-
-.journey-block-title:link,
-.journey-block-title:visited {
-  font-size: 2.4rem;
-  text-decoration: none;
-  color: #228be6;
-}
-
-.journey-block-title:hover,
-.journey-block-title:active {
-  color: #4dabf7;
-}
-
-.journey-role {
-  color: #2b8a3e;
+.about-bio {
   font-size: 1.6rem;
-  margin-top: 1rem;
-}
-
-.journey-location {
-  color: #444;
-  font-weight: bold;
-  font-size: 1.6rem;
-  margin-bottom: 2rem;
-}
-
-.journey-testimony {
-  margin-bottom: 1.4rem;
-  font-size: 1.4rem;
   line-height: 1.7;
   color: #444;
+  margin-bottom: 1.4rem;
+  text-align: left;
+}
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.about-tag {
+  background-color: #e9ecef;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
 }

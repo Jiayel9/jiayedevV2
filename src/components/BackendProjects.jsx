@@ -1,58 +1,55 @@
-import '../css/Projects.css'
-import kevinImg from '../assets/img/kevin-min.webp'
-import nucleImg from '../assets/img/nucle.io.png'
-import cohera from '../assets/img/cohera.png'
+import '../css/BackendProjects.css'
 
 const projects = [
   {
-    title: 'Personal Website',
-    icon: '🌐',
-    image: kevinImg,
-    description: 'The site you\'re on right now. Built from scratch with React and Vite, migrated from a plain HTML/CSS/JS version.',
-    tags: ['React', 'Vite', 'CSS'],
+    title: 'Backend Project One',
+    icon: '⚙️',
+    image: null,
+    description: 'Add your description here.',
+    tags: ['Python'],
     repoLabel: 'GitHub',
-    github: 'https://github.com/Jiayel9/jiayedevV2',
-    live: '#',
+    github: '#',
+    live: null,
   },
   {
-    title: 'nucle.io — iGEM 2024',
-    icon: '🧬',
-    image: nucleImg,
-    description: 'McGill\'s 2024 iGEM project. Add your description here.',
-    tags: ['iGEM', 'Synthetic Biology', 'React', 'TypeScript', 'JavaScript', 'CSS'],
-    repoLabel: 'GitLab',
-    github: 'https://gitlab.igem.org/2024/mcgill',
-    live: 'https://2024.igem.wiki/mcgill/',
+    title: 'Backend Project Two',
+    icon: '🗄️',
+    image: null,
+    description: 'Add your description here.',
+    tags: ['Java'],
+    repoLabel: 'GitHub',
+    github: '#',
+    live: null,
   },
   {
-    title: 'iGEM 2025 McGill',
-    icon: '🔬',
-    image: cohera,
-    description: 'Contributed to the engineering page for iGEM 2025, a synthetic biology competition. Helped with the design and implementation of the page.',
-    tags: ['iGEM', 'Synthetic Biology', 'TypeScript', 'JavaScript', 'CSS'],
-    repoLabel: 'GitLab',
-    github: 'https://gitlab.igem.org/2025/mcgill',
-    live: 'https://2025.igem.wiki/mcgill/',
+    title: 'Backend Project Three',
+    icon: '🔧',
+    image: null,
+    description: 'Add your description here.',
+    tags: ['Go'],
+    repoLabel: 'GitHub',
+    github: '#',
+    live: null,
   },
 ]
 
-export default function Projects() {
+export default function BackendProjects() {
   return (
-    <section id="projects" className="projects-section">
-      <h2>Web & Frontend</h2>
+    <section id="backend" className="backend-projects-section">
+      <h2>Backend & Systems</h2>
       <div className="projects-grid">
         {projects.map((project) => (
           <div className="flip-card" key={project.title}>
             <div className="flip-card-inner">
               <div
-                className="flip-card-front"
+                className="flip-card-front backend-front"
                 style={project.image ? { backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${project.image})` } : {}}
               >
                 <span className="project-icon">{project.icon}</span>
                 <h3>{project.title}</h3>
                 <span className="flip-hint">hover to see more</span>
               </div>
-              <div className="flip-card-back">
+              <div className="flip-card-back backend-back">
                 <div>
                   <h3>{project.title}</h3>
                   <p className="project-desc">{project.description}</p>
