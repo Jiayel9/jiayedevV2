@@ -14,9 +14,10 @@
 
 .display-img {
   width: 100%;
-  height: 22rem;
+  aspect-ratio: 9 / 16;
   border-radius: 12px;
   object-fit: cover;
+  display: block;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
@@ -28,5 +29,4 @@
 
 .placeholder-img {
   background-color: #ddd;
-  height: 22rem;
 }

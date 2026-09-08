@@ -10,7 +10,6 @@ export default function Gallery() {
     <section id="gallery" className="gallery-section">
       <div className="container">
         <h2>Photo Gallery</h2>
-        <p className="website-bio">Not really sure what to put here so for now I'll put the photos I don't post</p>
         <div className="gallery">
           <img className="display-img" src={keshi} alt="keshi-concert" />
           <img className="display-img" src={mtl} alt="mtl" />
