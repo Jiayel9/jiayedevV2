@@ -53,7 +53,7 @@ import '../css/ReachMe.css'
 
 export default function ReachMe() {
   return (
-    <section className="reach-me-section">
+    <section id="reach-me" className="reach-me-section">
       <div className="container">
         <h2 className="reach-me-bio">How to Reach Me</h2>
         <p className="website-bio reach-me-bio">Feel Free to reach out! Always on the lookout for new opportunities.</p>

@@ -19,6 +19,7 @@ export default function Navbar() {
         <li><a href="#projects" className="main-nav-link" onClick={(e) => { e.preventDefault(); scrollTo('#projects') }}>WEB</a></li>
         <li><a href="#backend" className="main-nav-link" onClick={(e) => { e.preventDefault(); scrollTo('#backend') }}>BACKEND</a></li>
         <li><a href="#gallery" className="main-nav-link" onClick={(e) => { e.preventDefault(); scrollTo('#gallery') }}>GALLERY</a></li>
+        <li><a href="#reach-me" className="main-nav-link" onClick={(e) => { e.preventDefault(); scrollTo('#reach-me') }}>CONTACT</a></li>
       </ul>
     </nav>
   )
