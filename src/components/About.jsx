@@ -1,14 +1,14 @@
 import '../css/About.css'
-import kevinImg from '../assets/img/kevin-min.webp'
+import skiKev from '../assets/img/ski.jpg'
 
-const tags = ['📍 Montreal', '🎓 McGill CS', '🤖 AI', '🥊 Boxing', '🏐 Volleyball', '🇫🇷 French']
+const tags = ['📍 Montreal', 'Toronto', 'Kingston', '🎓 McGill CS', '🤖 AI', '🥊 Boxing', '🏐 Volleyball', '🇫🇷 French']
 
 export default function About() {
   return (
     <section id="about-me">
       <h2>About Me</h2>
       <div className="about-layout">
-        <img className="about-img" src={kevinImg} alt="Kevin Liu" />
+        <img className="about-img" src={skiKev} alt="Kevin Liu" />
         <div className="about-text">
           <p className="about-bio">
             I'm a Computer Science & AI student at McGill University, mainly interested in artificial intelligence, software architecture, and systems-focused projects.

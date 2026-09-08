@@ -2,13 +2,13 @@ import '../css/BackendProjects.css'
 
 const projects = [
   {
-    title: 'Backend Project One',
-    icon: '⚙️',
+    title: 'Aegis: Chess Engine',
+    icon: '♟️',
     image: null,
-    description: 'Add your description here.',
-    tags: ['Python'],
+    description: 'Chess engine built in cpp. Goal is to consistently beat a 1600 playter',
+    tags: ['C++', 'Chess Engine', 'Minimax', 'Alpha-Beta Pruning'],
     repoLabel: 'GitHub',
-    github: '#',
+    github: 'https://github.com/Jiayel9/Aegis-Chess-Engine',
     live: null,
   },
   {

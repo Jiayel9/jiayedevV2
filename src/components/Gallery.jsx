@@ -4,6 +4,7 @@ import mtl from '../assets/img/gallery/mtl.webp'
 import betterPhotographer from '../assets/img/gallery/betterphotographer.webp'
 import sanfran from '../assets/img/gallery/sanfran.webp'
 import sanfran2 from '../assets/img/gallery/sanfran2.webp'
+import catKev from '../assets/img/gallery/kev.png'
 
 export default function Gallery() {
   return (
@@ -16,7 +17,7 @@ export default function Gallery() {
           <img className="display-img" src={betterPhotographer} alt="better photographer" />
           <img className="display-img" src={sanfran} alt="san francisco" />
           <img className="display-img" src={sanfran2} alt="san francisco 2" />
-          <div className="display-img placeholder-img" />
+          <img className="display-img" src={catKev} alt="cat kev" />
         </div>
       </div>
     </section>
